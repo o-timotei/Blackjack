@@ -1,0 +1,18 @@
+﻿  Blackjack.cpp
+C:\Users\timi_\Desktop\ITschool\Blackjack\Blackjack\Deck.hpp(195,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'Blackjack.cpp')
+  
+C:\Users\timi_\Desktop\ITschool\Blackjack\Blackjack\LoginRegister.hpp(14,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Blackjack.cpp')
+  
+C:\Users\timi_\Desktop\ITschool\Blackjack\Blackjack\LoginRegister.hpp(50,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Blackjack.cpp')
+  
+C:\Users\timi_\Desktop\ITschool\Blackjack\Blackjack\MiscFunctions.hpp(78,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Blackjack.cpp')
+  
+C:\Users\timi_\Desktop\ITschool\Blackjack\Blackjack\Blackjack.cpp(74,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\timi_\Desktop\ITschool\Blackjack\Blackjack\Blackjack.cpp(166,35): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\timi_\Desktop\ITschool\Blackjack\Blackjack\Blackjack.cpp(240,64): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\timi_\Desktop\ITschool\Blackjack\Blackjack\Blackjack.cpp(22,9): warning C4101: 'playerBalance': unreferenced local variable
+  Blackjack.vcxproj -> C:\Users\timi_\Desktop\ITschool\Blackjack\x64\Debug\Blackjack.exe
