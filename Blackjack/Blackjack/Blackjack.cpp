@@ -225,6 +225,8 @@ void playBlackjack()
                                     cout << " Total: " << CalculateHandTotal(dealerHand) << endl;
                                     cout << endl;
                                     cout << "=========================================================" << endl;
+                                    UpdatePlayerBalance(username, playerBalance); // Dam update la banii player-ului in fisierul txt folosind functia UpdatePlayerBalance
+                                    break;
 
                                 }
                                 else if (CalculateHandTotal(playerHand) == 21) // Verificam daca avem Blackjack
@@ -239,6 +241,7 @@ void playBlackjack()
                                     cout << "=========================================================" << endl;
                                     playerBalance += betAmount * 1.5; // Adaugam suma pariata la variabila cu balanta player-ului
                                     UpdatePlayerBalance(username, playerBalance); // Dam update la banii player-ului in fisierul txt folosind functia UpdatePlayerBalance
+                                    break;
                                 }
                                 else if (CalculateHandTotal(dealerHand) == 21) // Verificam daca dealer-ul are Blackjack
                                 {
@@ -261,6 +264,7 @@ void playBlackjack()
                                     cout << "=========================================================" << endl;
                                     playerBalance -= betAmount; // Scadem suma pariata din variabila cu balanta player-ului
                                     UpdatePlayerBalance(username, playerBalance); // Dam update la banii player-ului in fisierul txt folosind functia UpdatePlayerBalance
+                                    break;
                                 }
 
                                 cout << "=========================================================" << endl;
@@ -311,6 +315,7 @@ void playBlackjack()
 									cout << "=========================================================" << endl;
 									playerBalance -= betAmount; // Scadem suma pariata din variabila cu balanta player-ului
 									UpdatePlayerBalance(username, playerBalance); // Dam update la banii player-ului in fisierul txt folosind functia UpdatePlayerBalance
+                                    break;
 								}
                                 break;
 							}
@@ -462,6 +467,7 @@ void playBlackjack()
 						{
 							playerBalance -= betAmount; // Scadem suma pariata din variabila cu balanta player-ului
 							UpdatePlayerBalance(username, playerBalance); // Dam update la banii player-ului in fisierul txt folosind functia UpdatePlayerBalance
+                            break;
 						}
                         system("cls");
 						break;
@@ -496,7 +502,6 @@ void playBlackjack()
 				cout << "=========================================================" << endl;
 				cout << " Enter a username: ";
 				cin >> username;
-				cout << "=========================================================" << endl;
 
 				if (checkUsernameExists(username))
 				{
